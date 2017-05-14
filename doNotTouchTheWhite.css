@@ -1,0 +1,40 @@
+button{
+	width: 50px;
+	height: 25px;
+}
+#btn{
+	text-align: center;
+}
+#main{
+	width: 400px;
+	height: 400px;
+	background: white;
+	border: 2px solid gray;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#con{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	top: -100px;/* 隐藏最上边一层,最下边出现一行空白 */
+	border-collapse: collapse;
+}
+.row{
+	width: 100%;
+	height: 100px;
+}
+.cell{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.black{
+	background: black;
+}
+#score{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
